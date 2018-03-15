@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="oc-common" />
+        <module name="oc-operation" />
+        <module name="oc-portal" />
+        <module name="oc-service" />
+        <module name="oc-wechat" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="oc-common" target="1.8" />
+      <module name="oc-operation" target="1.8" />
+      <module name="oc-portal" target="1.8" />
+      <module name="oc-project" target="1.8" />
+      <module name="oc-service" target="1.8" />
+      <module name="oc-wechat" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
