@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: oc-portal
+  profiles:
+    active: localtest
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://39.108.133.76:3306/oc_project?useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&transformedBitIsBoolean=true
+    username: root
+    password: 123456
+
+server:
+  port: 8080
+  servlet:
+    context-path: /oc-project
+
+mybatis:
+  config-location: /mybatis/mybatis-config.xml
+  mapper-locations: /mybatis/mapper/*.xml
+  type-aliases-package: com.online.osService.domain
