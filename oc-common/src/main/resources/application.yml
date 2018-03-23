@@ -1,0 +1,11 @@
+
+spring:
+  application:
+    name: oc-common
+
+
+qiniu:
+  accesskey: kEUR-PJ-onSZZfmXGQcwQ2brvIdXM9y_vjyr18qH
+  secretkey: PGD8UWHFruc1zMBCybPvVhtnbZXl5rg3V4xThmAM
+  bucket: oc-bucket
+  cdns: onw21pjl5.bkt.clouddn.com
